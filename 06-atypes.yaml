@@ -1,9 +1,8 @@
 name: 06 - Activity Types
 on: 
     pull_request:
-        opened:
-        synchronize:
-        branches:
+      types: [opened, synchronize]
+      branches:
         - develop
 jobs:
     echo:
